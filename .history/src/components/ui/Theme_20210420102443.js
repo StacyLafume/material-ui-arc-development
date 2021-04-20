@@ -1,6 +1,6 @@
 import { createMuiTheme} from '@material-ui/core/styles';
 
-const arcBlue = "#ffb2b2";
+const arcBlue = "#0b72B9";
 const arcOrange = "#FF2b60";
 
 export default createMuiTheme({
@@ -14,11 +14,6 @@ export default createMuiTheme({
         },
         secondary:{
             main:`${arcBlue}`
-        }
-    },
-    typography:{
-        h3:{
-            fontWeight:300
         }
     }
 })
